@@ -47,7 +47,6 @@ namespace Hosu_Denisa_Proiect
         Binding txtidCsBinding = new Binding();
 
 
-
         CollectionViewSource customerOrdersViewSource;
         Binding txtCustomer = new Binding();
         Binding txtProduct = new Binding();
