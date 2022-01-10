@@ -8,8 +8,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="420" Width="800" Loaded="Window_Loaded">
     <Window.Resources>
-        <CollectionViewSource x:Key="customerViewSource" d:DesignSource="{d:DesignInstance {x:Type CakeShopModel:Customer}, CreateList=True}"/>
-        <CollectionViewSource x:Key="productViewSource" d:DesignSource="{d:DesignInstance {x:Type CakeShopModel:Product}, CreateList=True}"/>
+        <CollectionViewSource x:Key="customerViewSource" d:DesignSource="{d:DesignInstance {x:Type GymModel:Customer}, CreateList=True}"/>
+        <CollectionViewSource x:Key="productViewSource" d:DesignSource="{d:DesignInstance {x:Type GymModel:Product}, CreateList=True}"/>
         <CollectionViewSource x:Key="customerOrdersViewSource" Source="{Binding Orders, Source={StaticResource customerViewSource}}"/>
         <ControlTemplate x:Key="validationTemplate">
             <DockPanel>
