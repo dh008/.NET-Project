@@ -22,7 +22,7 @@ namespace Hosu_Denisa_Proiect {
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
     [global::System.ComponentModel.ToolboxItem(true)]
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
-    [global::System.Xml.Serialization.XmlRootAttribute("CakeShopDataSet")]
+    [global::System.Xml.Serialization.XmlRootAttribute("GymDataSet")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
     public partial class GymDataSet : global::System.Data.DataSet {
         
@@ -257,7 +257,7 @@ namespace Hosu_Denisa_Proiect {
         private void InitClass() {
             this.DataSetName = "GymDataSet";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/CakeShopDataSet.xsd";
+            this.Namespace = "http://tempuri.org/GymShopDataSet.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
             this.tableCustomer = new CustomerDataTable();
@@ -1808,7 +1808,7 @@ namespace Hosu_Denisa_Proiect {
         }
     }
 }
-namespace Hosu_Denisa_Proiect.CakeShopDataSetTableAdapters {
+namespace Hosu_Denisa_Proiect.GymDataSetTableAdapters {
     
     
     /// <summary>
