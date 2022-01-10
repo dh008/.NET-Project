@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hosu_Denisa_Proiect"
-        xmlns:CakeShopModel="clr-namespace:GymModel1;assembly=GymModel1" x:Class="Hosu_Denisa_Proiect.MainWindow"
+        xmlns:GymModel="clr-namespace:GymModel1;assembly=GymModel1" x:Class="Hosu_Denisa_Proiect.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="420" Width="800" Loaded="Window_Loaded">
     <Window.Resources>
